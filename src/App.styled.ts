@@ -1,12 +1,11 @@
 import styled from "styled-components";
-
 export const container = styled.div`
 background-color:#1e1e1e;
+overflow: hidden;
 color: #FFFFFF;
 .content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
+    margin-left: 237px;
+    height:100vh;
 
+  }
 `; 
