@@ -4,8 +4,8 @@ export const NavBarHeaderContent = () => {
     return (
         <C.HeaderContent>
             <C.arrowbButtons>
-                <button className="left-arrow"><div className="left"> </div></button>
-                <button className="right-arrow"><div className="right"></div></button>
+                <button className="left-arrow"><div className="left">➜</div></button>
+                <button className="right-arrow"><div className="right">➜</div></button>
 
             </C.arrowbButtons>
             <C.buttonsLogin>

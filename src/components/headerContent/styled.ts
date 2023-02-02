@@ -5,22 +5,27 @@ width:100%;
 display: flex;
 justify-content: space-between;
 background-color: #0f0f0f;
-padding:16px 19px 9px 15px;
+padding:6px 12px;
 
 `
 const arrowbButtons = styled.div`
 margin-top:5px;
+margin: 10px 20px 0 20px;
 button {
-margin-right:20px;
+margin: 0 15px 0 0px;
 background-color:#090909;  
 border:none;
-height:32px;
-width:32px;
+color: #fff;
+height:35px;
+width:35px;
+
 border-radius:100%;
 cursor:not-allowed;
 button svg{
 display: none;
-
+}
+div.left{
+transform:rotate(180deg);
 }
 `
 const buttonsLogin = styled.div`
