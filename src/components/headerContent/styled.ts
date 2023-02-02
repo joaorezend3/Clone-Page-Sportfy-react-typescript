@@ -20,20 +20,21 @@ border-radius:100%;
 cursor:not-allowed;
 button svg{
 display: none;
+
 }
 `
 const buttonsLogin = styled.div`
-
 margin:0 40px 0 0;
 display: inline-flex;
 gap:16px;
-button{
+    button{
 width:100px;    
 height:50px;
 font-size:0.9rem;
 font-weight:bold;
 border:none;
 }
+
 .btnInscreva{
 background-color:transparent;
 color:#a7a7a7;

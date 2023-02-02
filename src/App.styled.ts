@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const container = styled.div`
-background-color:#1e1e1e;
+background-image: linear-gradient(#1e1e1e, #121212);
 overflow: hidden;
 color: #FFFFFF;
 .content {

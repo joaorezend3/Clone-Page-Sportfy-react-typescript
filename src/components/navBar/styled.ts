@@ -8,6 +8,8 @@ const NavBar = styled.div`
     padding: 0;
     height: 100%;
     width: 237px;
+    white-space: nowrap;
+    overflow: hidden;
 .logo svg{
     margin:25px 0 0 15px ;
     height:38px;
