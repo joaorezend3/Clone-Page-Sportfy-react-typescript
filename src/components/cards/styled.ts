@@ -57,6 +57,7 @@ const imgCard = styled.div`
 overflow: hidden;
 margin-top:10px;
 height: 160px;
+border-radius:4px;
 img{
     height: 100%;
 }

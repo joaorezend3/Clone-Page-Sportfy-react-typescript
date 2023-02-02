@@ -5,7 +5,7 @@ overflow: hidden;
 color: #FFFFFF;
 .content {
     margin-left: 237px;
-    height:100vh;
+    height:100%;
 
   }
 `; 

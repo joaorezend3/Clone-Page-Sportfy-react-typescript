@@ -4,6 +4,7 @@ import { NavBar } from './components/navBar'
 import { NavBarHeaderContent } from './components/headerContent'
 import ContainerCards from './components/cards'
 function App() {
+
   return (
     <div className="App">
       <C.container>
