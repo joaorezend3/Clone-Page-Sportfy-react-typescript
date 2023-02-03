@@ -1,4 +1,5 @@
 import * as C from "./styled";
+
 const ContainerCards = () => {
     return (
         <C.HeaderContent>
@@ -61,51 +62,52 @@ const ContainerCards = () => {
                 <C.cards>
                     <C.card>
                         <C.imgCard>
-                            <img src="https://i.scdn.co/image/ab67706f000000020538c13122d3c0a64ceaa279" alt="" />
+                            <img src="https://i.scdn.co/image/ab67706f00000002c57a3acb9f3f0517fe87abe6" alt="" />
                         </C.imgCard>
                         <C.textCard>
-                            <h2>Charlie Brown</h2>
-                            <p>Banda de rock melodico brasileira.</p>
+                            <h2>Today's Top Hits</h2>
+                            <p>Sam Smith is on top of the Hottest 50!</p>
                         </C.textCard>
                     </C.card>
                     <C.card>
                         <C.imgCard>
-                            <img src="https://i.scdn.co/image/ab67706f0000000236f70792450e32a6af85dbf6" alt="Travis Scott" />
+                            <img src="https://i.scdn.co/image/ab67706f00000002d9a28961c33c1abc19818a1f" alt="Travis Scott" />
                         </C.imgCard>
                         <C.textCard>
-                            <h2>Travis Scott</h2>
-                            <p>Banda de rock melodico brasileira.</p>
+                            <h2>RapCaviar</h2>
+                            <p>Music from Metro Boomin, DaBaby and Rae Sremmurd. </p>
                         </C.textCard>
                     </C.card>
                     <C.card>
                         <C.imgCard>
-                            <img src="https://i.scdn.co/image/ab67706f000000024a54a41a2760b74e1d68d100" alt="Ariana Grande" />
+                            <img src="https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1" alt="Ariana Grande" />
                         </C.imgCard>
                         <C.textCard>
-                            <h2>Ariana Grande</h2>
-                            <p>Banda de rock melodico brasileira.</p>
+                            <h2>All Out 2010</h2>
+                            <p>The biggest songs of the 2010s. </p>
                         </C.textCard>
                     </C.card>
                     <C.card>
                         <C.imgCard>
-                            <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO03DwPK-default.jpg" alt="Bruno Mars " />
+                            <img src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" alt="Bruno Mars " />
                         </C.imgCard>
                         <C.textCard>
-                            <h2>Bruno Mars</h2>
-                            <p>Banda de rock melodico brasileira.</p>
+                            <h2>Rock Classics</h2>
+                            <p>Rock legends & epic songs that continue to inspire generations. Cover: Foo Fighters</p>
                         </C.textCard>
                     </C.card>
                     <C.card>
                         <C.imgCard>
-                        <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO18bmQy-default.jpg" alt="Djonga" />
+                            <img src="https://i.scdn.co/image/ab67706f0000000208ca740941aa65b5e205c361" alt="Djonga" />
                         </C.imgCard>
                         <C.textCard>
-                            <h2>Djoga</h2>
-                            <p>O maior raper brasileiro no Sportfy.</p>
+                            <h2>Chill Hits</h2>
+                            <p>Kick back to the best new and recent chill hits.</p>
                         </C.textCard>
                     </C.card>
                 </C.cards>
             </div>
+
         </C.HeaderContent>
     )
 }

@@ -52,26 +52,26 @@ cursor: pointer;
 padding:9px;
 display:flex;
 flex-direction:column;
-align-items:center;
 :hover{
     background-color:#232323;
 }
 `
 const imgCard = styled.div`
-overflow: hidden;
-margin-top:10px;
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    img{
+box-shadow:0 8px 24px rgba(0,0,0,.5);
 border-radius:4px;
-position: relative;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-img{
-    height: 100%;
-    width: 100%;
+height:100%;
+height:100%;
 }
 `
 const textCard = styled.div`
 display: flex;
 flex-direction: column;
-align-items: center;
+margin-left:10px;
 h2{
     font-size: 1rem;
     font-weight:700;
@@ -79,6 +79,5 @@ h2{
 p{
     font-size:0.875rem;
 }
-
 `
 export { HeaderContent, topText, titleCards, exibirCards, cards, card, imgCard, textCard };

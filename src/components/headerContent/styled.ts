@@ -6,7 +6,6 @@ display: flex;
 justify-content: space-between;
 background-color: #0f0f0f;
 padding:6px 12px;
-
 `
 const arrowbButtons = styled.div`
 margin-top:5px;
