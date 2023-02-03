@@ -17,14 +17,15 @@ border:none;
 color: #fff;
 height:35px;
 width:35px;
-
 border-radius:100%;
 cursor:not-allowed;
-button svg{
-display: none;
+position:relative;
 }
-div.left{
-transform:rotate(180deg);
+ img{
+height:15px;
+}
+.right-arrow{
+    transform:rotate(-50deg);
 }
 `
 const buttonsLogin = styled.div`

@@ -38,14 +38,19 @@ li:hover{
     display:flex;
     gap:14px;
 }
-.social div{
+.social button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #292929;
+    border:none;
+    color: #fff;
+    cursor: pointer;
 }
-.social div svg{
-    margin:8% 0 0 29%;
+.social button:hover{
+background-color: rgb(114, 114, 114);    
+}
+.social button svg{
     height: 35px;
     widht: 35px;
 }

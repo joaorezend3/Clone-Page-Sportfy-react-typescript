@@ -56,7 +56,8 @@ margin-top: 15%;
 }
 .language:hover{
     background-color: #000;
-transfor:scale(1.1);;
+    transform:scale(1.1);
+    transition:0.1s ease-in;
 }
 .language svg {
     vertical-align: middle;

@@ -4,12 +4,14 @@ const HeaderContent = styled.div`
 width:100%;
 display: flex;
 padding: 0% 2%;
+margin:0 10px 0 0px;
 `
 
 const topText = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin-right:10px;
 h2{
 position: relative;
 margin-left:9px;    
@@ -61,7 +63,9 @@ const imgCard = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+    position: relative;
     img{
+position: relative;
 box-shadow:0 8px 24px rgba(0,0,0,.5);
 border-radius:4px;
 height:100%;

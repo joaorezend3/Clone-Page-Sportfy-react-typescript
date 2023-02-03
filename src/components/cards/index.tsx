@@ -12,6 +12,7 @@ const ContainerCards = () => {
                     <C.card>
                         <C.imgCard>
                             <img src="https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6" alt="" />
+
                         </C.imgCard>
                         <C.textCard>
                             <h2>Paceful Piano</h2>
