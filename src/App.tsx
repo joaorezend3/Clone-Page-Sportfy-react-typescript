@@ -14,10 +14,6 @@ function App() {
           <NavBarHeaderContent></NavBarHeaderContent>
           <ContainerCards />
         </div>
-        <C.Anuncio>
-          <p>aaaa</p>
-          <div>ssssssa8978ssss</div>
-        </C.Anuncio>
         <Footer></Footer>
       </C.container >
     </div>

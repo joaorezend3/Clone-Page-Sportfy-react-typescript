@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Recriando a Página Inicial do Spotify com React e TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot]()
 
-## Available Scripts
+## Sobre o Projeto:
 
-In the project directory, you can run:
+Este projeto visa recriar a página inicial do Spotify utilizando React e TypeScript. O objetivo é criar uma interface de usuário não logado, semelhante ao Spotify, com uma barra de navegação à esquerda e um container à direita exibindo as opções de música disponíveis para usuários não registrados.
 
-### `npm start`
+##### Algumas imagens e SVGs foram bloqueados pelo Spotify, então algumas partes da página não ficaram 100% iguais.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## Principais Características:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Utilização do React para criar componentes reutilizáveis e interativos na página.
+- Utilização do TypeScript para garantir tipagem segura e maior legibilidade do código.
+- Utilização de styled-components para facilitar a estilização dos componentes.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- TypeScript
+- styled-components
+- CSSS
+- HTML5
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Código Principal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ O arquivo principal do projeto é onde todos os componentes são importados e montados para exibir a página final. Aqui é onde todos os componentes, incluindo a barra de navegação, o conteúdo do cabeçalho, o container de cartões e o rodapé, são renderizados para exibir a página final.
 
-### `npm run eject`
+```typescript
+function App() {
+  return (
+    <div className="App">
+      <C.container>
+        <NavBar></NavBar>
+        <div className="content">
+          <NavBarHeaderContent>
+          </NavBarHeaderContent>
+          <ContainerCards />
+        </div>
+        <Footer></Footer>
+      </C.container>
+    </div>
+  );
+}
+```
+Este projeto foi uma ótima maneira de praticar minhas habilidades em React e TypeScript, bem como aprender a trabalhar com styled-components. Se você está interessado em desenvolvimento web e aplicativos de música, este projeto é perfeito para você!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+<a href="https://www.linkedin.com/in/jo%C3%A3o-rezende-b3aa4821b/" ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg></a><p>
