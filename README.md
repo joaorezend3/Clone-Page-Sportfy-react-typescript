@@ -1,6 +1,6 @@
 # Recriando a Página Inicial do Spotify com React e TypeScript
 
-![Screenshot]()
+![Screenshot](https://github.com/joaorezend3/Clone-Page-Sportfy-react-typescript/blob/master/Sportfy.gif)
 
 ## Sobre o Projeto:
 
